@@ -1,0 +1,23 @@
+# ninja log v5
+111	807	7327337011693201	CMakeFiles/Practica.dir/Trabajadores/FrontJack.cpp.obj	439165f6fddcbf21
+86	814	7327337011681748	CMakeFiles/Practica.dir/Trabajadores/TyreOn.cpp.obj	baefd0fd043b824e
+99	834	7327337012338109	CMakeFiles/Practica.dir/Trabajadores/RearJack.cpp.obj	181d5e1a6af09e43
+77	870	7327337012658095	CMakeFiles/Practica.dir/Trabajadores/TyreOff.cpp.obj	c1079ac5a3b0a7b7
+9	249	7327337311989020	CMakeFiles/Practica.dir/Trabajadores/TyreGunner.cpp.obj	158cd92d20532d2a
+47	403	7327337312072613	CMakeFiles/Practica.dir/Equipos/PitCrewTeam.cpp.obj	46540940facaf873
+31	418	7327337312189964	CMakeFiles/Practica.dir/Trabajadores/FlapAdjust.cpp.obj	d0dcf24a5eb7ce7
+16	430	7327337313291998	CMakeFiles/Practica.dir/Trabajadores/Steadier.cpp.obj	5d1101754c718987
+23	449	7327337313402008	CMakeFiles/Practica.dir/Equipos/F1Team.cpp.obj	8cf4bf502b741d00
+419	777	7327337316748849	CMakeFiles/Practica.dir/Trabajadores.cpp.obj	da9c23c5d7e6184b
+404	778	7327337316947376	CMakeFiles/Practica.dir/Equipos/TeamDriverB.cpp.obj	4417c88c2ed9bb38
+250	792	7327337317423179	CMakeFiles/Practica.dir/Trabajadores/Lollipop.cpp.obj	e38dce4ab18117c
+430	821	7327337317620908	CMakeFiles/Practica.dir/Equipos/TeamDriverA.cpp.obj	86b56fd8ab04bf83
+450	1877	7327337328337448	CMakeFiles/Practica.dir/Trabajador.cpp.obj	6006a22b4d222cfa
+54	2502	7327339539810229	CMakeFiles/Practica.dir/Trabajador.cpp.obj	6006a22b4d222cfa
+47	1519	7327348190700114	CMakeFiles/Practica.dir/Trabajador.cpp.obj	6006a22b4d222cfa
+34	1524	7327348190755552	CMakeFiles/Practica.dir/main.cpp.obj	ebe223bf90c72790
+15	2537	7327380778555654	CMakeFiles/Practica.dir/main.cpp.obj	ebe223bf90c72790
+63	2673	7327380779931026	CMakeFiles/Practica.dir/Trabajadores.cpp.obj	da9c23c5d7e6184b
+45	2680	7327380779991083	CMakeFiles/Practica.dir/Trabajador.cpp.obj	6006a22b4d222cfa
+31	2689	7327380780065120	CMakeFiles/Practica.dir/Trabajadores/TyreGunner.cpp.obj	158cd92d20532d2a
+5	1773	7327385185624055	CMakeFiles/Practica.dir/main.cpp.obj	ebe223bf90c72790

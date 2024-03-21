@@ -3,3 +3,10 @@
 //
 
 #include "Trabajadores.h"
+
+void Trabajadores::rol(string rol) {
+    cout<<"Por definir"<<endl;
+}
+int Trabajadores::cantidadMiembros() {
+    return 0;
+}

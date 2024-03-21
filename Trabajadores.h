@@ -5,9 +5,16 @@
 #ifndef PRACTICA_TRABAJADORES_H
 #define PRACTICA_TRABAJADORES_H
 
+#include <iostream>
+using namespace std;
 
 class Trabajadores {
+public:
+    Trabajadores();//constructor
 
+    //metodos
+    virtual void rol(string rol);
+    virtual int cantidadMiembros();
 };
 
 

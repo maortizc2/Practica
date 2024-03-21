@@ -6,9 +6,19 @@
 #define PRACTICA_REARJACK_H
 
 
-class RearJack {
+#include "../Trabajador.h"
+#include "../Trabajadores.h"
 
-};
+class RearJack: public Trabajador, public Trabajadores{
+    private:
+        string nommbreCompleto;
+    public:
+       RearJack(string nombreCompleto,string rol,int cantidadMiembros); //constructor
 
+        void rol(string)override;
+        int cantidadMiembros()override;
+        void subirCarro();
+        void bajarCarro();
+    };
 
 #endif //PRACTICA_REARJACK_H

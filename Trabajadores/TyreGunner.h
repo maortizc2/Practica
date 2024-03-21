@@ -4,14 +4,23 @@
 
 #ifndef PRACTICA_TYREGUNNER_H
 #define PRACTICA_TYREGUNNER_H
-using namespace std;
 
-class TyreGunner :p{
+#include "../Trabajador.h"
+#include "../Trabajadores.h"
+
+
+class TyreGunner:public Trabajador,public Trabajadores{
+private:
+    TyreGunner(string nombreCompleto);
+    string nommbreCompleto;
 public:
-    void AflojarLlanta(){
-    };
-    void RemoverLlantas(){
-    };
+    TyreGunner(string nombreCompleto,string rol,int cantidadMiembros); //constructor
+
+
+    void rol(string)override;
+    int cantidadMiembros()override;
+    void aflojarLlanta();
+    void removerLlantas();
 };
 
 

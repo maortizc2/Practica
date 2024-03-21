@@ -3,3 +3,13 @@
 //
 
 #include "RearJack.h"
+RearJack::RearJack(string nombreCompleto,string rol, int cantidadMiembros) {}
+
+void RearJack ::rol(string) {
+    cout<<"Rear jack"<<endl;
+}
+int RearJack ::cantidadMiembros() {
+    return 2;
+}
+void estabilizarCoche();
+void mantenerEstabilidad();

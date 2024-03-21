@@ -3,3 +3,14 @@
 //
 
 #include "TyreOff.h"
+
+
+TyreOff::TyreOff(string nombreCompleto,string rol, int cantidadMiembros) {}
+void TyreOff ::rol(string) {
+    cout<<"TyreOff"<<endl;
+}
+int TyreOff ::cantidadMiembros() {
+    return 4;
+}
+void esperarAfloje();
+void removerLlantas();

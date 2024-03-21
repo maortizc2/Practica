@@ -5,29 +5,14 @@
 # include "Trabajador.h"
 
 //constructor de la clase
- Trabajador::Trabajador(string nombre,string apellido, int numId) {
-    this->nombre= nombre;
-    this->apellido= apellido;
-    this->numId=numId;
+ Trabajador::Trabajador () {
 }
-
 
 //setter and getter
-string Trabajador::getNombre(){
-    return nombre;
+string Trabajador::getNombreCompleto(){
+    return nombreCompleto;
 }
-void Trabajador::setNombre(string Nombre){
- this->nombre=nombre;
+void Trabajador::setNombreCompleto(string nombreCompleto){
+ this->nombreCompleto=nombreCompleto;
 }
-string Trabajador::getApellido() {
-    return apellido;
-}
-void Trabajador::setApellido(string apellido) {
-    this->apellido=apellido;
-}
-int Trabajador::getNumId(){
-    return numId;
-}
-void Trabajador::setNumId(int numId) {
-    this->numId=numId;
-}
+
