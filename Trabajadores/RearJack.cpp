@@ -11,5 +11,5 @@ void RearJack ::rol(string) {
 int RearJack ::cantidadMiembros() {
     return 2;
 }
-void estabilizarCoche();
-void mantenerEstabilidad();
+void subirCarro();
+void bajarCarro();

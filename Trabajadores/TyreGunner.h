@@ -12,7 +12,7 @@
 class TyreGunner:public Trabajador,public Trabajadores{
 private:
     TyreGunner(string nombreCompleto);
-    string nommbreCompleto;
+    string nombreCompleto;
 public:
     TyreGunner(string nombreCompleto,string rol,int cantidadMiembros); //constructor
 

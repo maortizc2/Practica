@@ -6,9 +6,17 @@
 #define PRACTICA_LOLLIPOP_H
 
 
-class Lollipop {
+#include "../Trabajador.h"
+#include "../Trabajadores.h"
 
+class Lollipop: public Trabajador, public Trabajadores{
+public:
+Lollipop(string nombreCompleto,string rol,int cantidadMiembros); //constructor
+
+void rol(string)override;
+int cantidadMiembros()override;
+void detenerConductor();
+void darSeñalSalida();
 };
-
 
 #endif //PRACTICA_LOLLIPOP_H

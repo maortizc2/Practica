@@ -3,3 +3,13 @@
 //
 
 #include "FlapAdjust.h"
+FlapAdjust::FlapAdjust(string nombreCompleto,string rol, int cantidadMiembros) {}
+
+void FlapAdjust::rol(string) {
+    cout<<"Flap Adjust"<<endl;
+}
+int FlapAdjust::cantidadMiembros() {
+    return 2;
+}
+void justarFlap();
+void ponerNuevaAla();

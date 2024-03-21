@@ -3,3 +3,12 @@
 //
 
 #include "Lollipop.h"
+Lollipop::Lollipop(string nombreCompleto, string rol, int cantidadMiembros) {}
+void Lollipop::rol(string) {
+    cout<<"Lollipop"<<endl;
+}
+int Lollipop::cantidadMiembros() {
+    return 2;
+}
+void detenerConductor();
+void darSeñalSalida();

@@ -6,6 +6,8 @@
 #include "Trabajadores/FrontJack.h"
 #include "Trabajadores/TyreOn.h"
 #include "Trabajadores/RearJack.h"
+#include "Trabajadores/Steadier.h"
+#include "Trabajadores/FlapAdjust.h"
 
 //objetos de Tyre gunner
 TyreGunner TyreGunner1("Josep josanson ","Tyre gunner",1 );
@@ -28,5 +30,11 @@ FrontJack FrontJack2("Takeshi Yamamoto","Front Jack",2);
 //Objetos de RearJack
 RearJack RearJack1("Alexander Petrov","Rear jack",1);
 RearJack RearJack2("Kenji Sato","Rear jack",2);
+//Objetos Steadier
+Steadier Steadier1("Omar Farsi","Steadier",1);
+Steadier Steadier2("Kofi Annan","Steadier",2);
+//objetos Flap adjust
+FlapAdjust FlapAdjust1("Adam Nowak","Flap adjust",1);
+FlapAdjust FlapAdjust2("Emre Can","Flap adjust",2);
 
 

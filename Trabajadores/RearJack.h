@@ -11,7 +11,7 @@
 
 class RearJack: public Trabajador, public Trabajadores{
     private:
-        string nommbreCompleto;
+        string nombreCompleto;
     public:
        RearJack(string nombreCompleto,string rol,int cantidadMiembros); //constructor
 
